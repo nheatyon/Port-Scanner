@@ -1,6 +1,6 @@
 # Port Scanner
 
-TCP SYN scanner for hosts you are allowed to test. It walks ports 1–65534, sends a SYN probe with Scapy, records ports that answer with SYN/ACK, then prints a table of open ports and their banners.
+TCP SYN scanner for hosts you are allowed to test. It walks ports 1–65535, sends a SYN probe with Scapy, records ports that answer with SYN/ACK, then prints a table of open ports and their banners.
 
 Use this only on systems you own or have written permission to assess.
 
